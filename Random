@@ -1,8 +1,9 @@
 #include <iostream>
+#include <windows.h>
 using namespace std;
 int main()
 {
-	setlocale(LC_ALL, "Russian");
+	setlocale(LC_ALL,"Russian");
 	srand(time(0));
 	int x = rand() % 100 + 1;
 	int k = 0;
@@ -15,6 +16,8 @@ int main()
 		if (x == s)
 		{
 			cout << "Поздравляем, вы нашли загаданное число!!!\n";
+			Sleep(5000);
+			system("start random.cpp");
 		}
 		else
 		{
@@ -33,6 +36,8 @@ int main()
 	if (k == 7)
 	{
 		cout << "Увы, попытки закончились\n" << "Загаданное число = " << x;
+		Sleep(5000);
+		system("start random.cpp");
 	}
 	return 0;
 }
