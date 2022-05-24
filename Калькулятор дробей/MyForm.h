@@ -10,7 +10,7 @@ namespace calculator {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// РЎРІРѕРґРєР° РґР»СЏ MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -19,13 +19,13 @@ namespace calculator {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~MyForm()
 		{
@@ -82,14 +82,14 @@ namespace calculator {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 		/// </summary>
 
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
+		/// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -124,7 +124,7 @@ namespace calculator {
 			this->label11 = (gcnew System::Windows::Forms::Label());
 			this->SuspendLayout();
 			// 
-			// textBox1	- целая часть результата вычисления обыкновенных дробей
+			// textBox1	- С†РµР»Р°СЏ С‡Р°СЃС‚СЊ СЂРµР·СѓР»СЊС‚Р°С‚Р° РІС‹С‡РёСЃР»РµРЅРёСЏ РѕР±С‹РєРЅРѕРІРµРЅРЅС‹С… РґСЂРѕР±РµР№
 			// 
 			this->textBox1->BackColor = System::Drawing::SystemColors::Window;
 			this->textBox1->Cursor = System::Windows::Forms::Cursors::No;
@@ -141,17 +141,17 @@ namespace calculator {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(163, 23);
 			this->label1->TabIndex = 31;
-			this->label1->Text = L"Обыкновенные дроби";
+			this->label1->Text = L"РћР±С‹РєРЅРѕРІРµРЅРЅС‹Рµ РґСЂРѕР±Рё";
 			this->label1->Click += gcnew System::EventHandler(this, &MyForm::label1_Click);
 			// 
-			// button1  Кнопка вычисления обыкновенных дробей
+			// button1  РљРЅРѕРїРєР° РІС‹С‡РёСЃР»РµРЅРёСЏ РѕР±С‹РєРЅРѕРІРµРЅРЅС‹С… РґСЂРѕР±РµР№
 			// 
 			this->button1->BackColor = System::Drawing::Color::Gray;
 			this->button1->Location = System::Drawing::Point(131, 55);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(93, 26);
 			this->button1->TabIndex = 30;
-			this->button1->Text = L"Вычислить";
+			this->button1->Text = L"Р’С‹С‡РёСЃР»РёС‚СЊ";
 			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -162,30 +162,30 @@ namespace calculator {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(108, 23);
 			this->label2->TabIndex = 29;
-			this->label2->Text = L"Первая дробь: ";
+			this->label2->Text = L"РџРµСЂРІР°СЏ РґСЂРѕР±СЊ: ";
 			// 
-			// textBox2 - Числитель первой обыкновенной дроби
+			// textBox2 - Р§РёСЃР»РёС‚РµР»СЊ РїРµСЂРІРѕР№ РѕР±С‹РєРЅРѕРІРµРЅРЅРѕР№ РґСЂРѕР±Рё
 			// 
 			this->textBox2->Location = System::Drawing::Point(116, 128);
 			this->textBox2->Name = L"textBox2";
 			this->textBox2->Size = System::Drawing::Size(108, 22);
 			this->textBox2->TabIndex = 6;
 			// 
-			// textBox3 - Числитель второй обыкновенной дроби
+			// textBox3 - Р§РёСЃР»РёС‚РµР»СЊ РІС‚РѕСЂРѕР№ РѕР±С‹РєРЅРѕРІРµРЅРЅРѕР№ РґСЂРѕР±Рё
 			// 
 			this->textBox3->Location = System::Drawing::Point(116, 224);
 			this->textBox3->Name = L"textBox3";
 			this->textBox3->Size = System::Drawing::Size(108, 22);
 			this->textBox3->TabIndex = 7;
 			// 
-			// textBox4 - Знаменатель первой обыкновенной дроби
+			// textBox4 - Р—РЅР°РјРµРЅР°С‚РµР»СЊ РїРµСЂРІРѕР№ РѕР±С‹РєРЅРѕРІРµРЅРЅРѕР№ РґСЂРѕР±Рё
 			// 
 			this->textBox4->Location = System::Drawing::Point(116, 154);
 			this->textBox4->Name = L"textBox4";
 			this->textBox4->Size = System::Drawing::Size(108, 22);
 			this->textBox4->TabIndex = 8;
 			// 
-			// textBox5 - Знаменатель результата вычисления обыкновенных дробей
+			// textBox5 - Р—РЅР°РјРµРЅР°С‚РµР»СЊ СЂРµР·СѓР»СЊС‚Р°С‚Р° РІС‹С‡РёСЃР»РµРЅРёСЏ РѕР±С‹РєРЅРѕРІРµРЅРЅС‹С… РґСЂРѕР±РµР№
 			// 
 			this->textBox5->BackColor = System::Drawing::SystemColors::Window;
 			this->textBox5->Cursor = System::Windows::Forms::Cursors::No;
@@ -195,7 +195,7 @@ namespace calculator {
 			this->textBox5->Size = System::Drawing::Size(108, 22);
 			this->textBox5->TabIndex = 9;
 			// 
-			// textBox6 - Числитель результата вычисления обыкновенных дробей
+			// textBox6 - Р§РёСЃР»РёС‚РµР»СЊ СЂРµР·СѓР»СЊС‚Р°С‚Р° РІС‹С‡РёСЃР»РµРЅРёСЏ РѕР±С‹РєРЅРѕРІРµРЅРЅС‹С… РґСЂРѕР±РµР№
 			// 
 			this->textBox6->BackColor = System::Drawing::SystemColors::Window;
 			this->textBox6->Cursor = System::Windows::Forms::Cursors::No;
@@ -205,7 +205,7 @@ namespace calculator {
 			this->textBox6->Size = System::Drawing::Size(108, 22);
 			this->textBox6->TabIndex = 10;
 			// 
-			// textBox7 - Знаменатель второй обыкновенной дроби
+			// textBox7 - Р—РЅР°РјРµРЅР°С‚РµР»СЊ РІС‚РѕСЂРѕР№ РѕР±С‹РєРЅРѕРІРµРЅРЅРѕР№ РґСЂРѕР±Рё
 			// 
 			this->textBox7->Location = System::Drawing::Point(116, 249);
 			this->textBox7->Name = L"textBox7";
@@ -219,16 +219,16 @@ namespace calculator {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(111, 23);
 			this->label3->TabIndex = 28;
-			this->label3->Text = L"Вторая дробь: ";
+			this->label3->Text = L"Р’С‚РѕСЂР°СЏ РґСЂРѕР±СЊ: ";
 			// 
-			// textBox8 - Целая часть второй обыкновенной дроби
+			// textBox8 - Р¦РµР»Р°СЏ С‡Р°СЃС‚СЊ РІС‚РѕСЂРѕР№ РѕР±С‹РєРЅРѕРІРµРЅРЅРѕР№ РґСЂРѕР±Рё
 			// 
 			this->textBox8->Location = System::Drawing::Point(41, 237);
 			this->textBox8->Name = L"textBox8";
 			this->textBox8->Size = System::Drawing::Size(69, 22);
 			this->textBox8->TabIndex = 27;
 			// 
-			// textBox9 - Целая часть первой обыкновенной дроби
+			// textBox9 - Р¦РµР»Р°СЏ С‡Р°СЃС‚СЊ РїРµСЂРІРѕР№ РѕР±С‹РєРЅРѕРІРµРЅРЅРѕР№ РґСЂРѕР±Рё
 			// 
 			this->textBox9->Location = System::Drawing::Point(41, 139);
 			this->textBox9->Name = L"textBox9";
@@ -243,7 +243,7 @@ namespace calculator {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(80, 17);
 			this->label4->TabIndex = 15;
-			this->label4->Text = L"Результат:";
+			this->label4->Text = L"Р РµР·СѓР»СЊС‚Р°С‚:";
 			// 
 			// label5
 			// 
@@ -253,30 +253,30 @@ namespace calculator {
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(135, 17);
 			this->label5->TabIndex = 16;
-			this->label5->Text = L"Десятичные дроби";
+			this->label5->Text = L"Р”РµСЃСЏС‚РёС‡РЅС‹Рµ РґСЂРѕР±Рё";
 			// 
-			// comboBox2 - Выбор действия для работы с десятичными дробями
+			// comboBox2 - Р’С‹Р±РѕСЂ РґРµР№СЃС‚РІРёСЏ РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ РґРµСЃСЏС‚РёС‡РЅС‹РјРё РґСЂРѕР±СЏРјРё
 			// 
 			this->comboBox2->FormattingEnabled = true;
-			this->comboBox2->Items->AddRange(gcnew cli::array< System::Object^  >(4) { L"Сложение", L"Вычитание", L"Умножение", L"Деление" });
+			this->comboBox2->Items->AddRange(gcnew cli::array< System::Object^  >(4) { L"РЎР»РѕР¶РµРЅРёРµ", L"Р’С‹С‡РёС‚Р°РЅРёРµ", L"РЈРјРЅРѕР¶РµРЅРёРµ", L"Р”РµР»РµРЅРёРµ" });
 			this->comboBox2->Location = System::Drawing::Point(287, 55);
 			this->comboBox2->Name = L"comboBox2";
 			this->comboBox2->Size = System::Drawing::Size(113, 24);
 			this->comboBox2->TabIndex = 17;
-			this->comboBox2->Text = L"Действие";
+			this->comboBox2->Text = L"Р”РµР№СЃС‚РІРёРµ";
 			// 
-			// button2 - Кнопка вычисления для десятичных дробей
+			// button2 - РљРЅРѕРїРєР° РІС‹С‡РёСЃР»РµРЅРёСЏ РґР»СЏ РґРµСЃСЏС‚РёС‡РЅС‹С… РґСЂРѕР±РµР№
 			// 
 			this->button2->BackColor = System::Drawing::Color::Gray;
 			this->button2->Location = System::Drawing::Point(406, 54);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(97, 28);
 			this->button2->TabIndex = 18;
-			this->button2->Text = L"Вычислить";
+			this->button2->Text = L"Р’С‹С‡РёСЃР»РёС‚СЊ";
 			this->button2->UseVisualStyleBackColor = false;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
-			// textBox10 - Первая десятичная дробь
+			// textBox10 - РџРµСЂРІР°СЏ РґРµСЃСЏС‚РёС‡РЅР°СЏ РґСЂРѕР±СЊ
 			// 
 			this->textBox10->Location = System::Drawing::Point(296, 128);
 			this->textBox10->Name = L"textBox10";
@@ -291,16 +291,16 @@ namespace calculator {
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(104, 17);
 			this->label6->TabIndex = 20;
-			this->label6->Text = L"Первое число:";
+			this->label6->Text = L"РџРµСЂРІРѕРµ С‡РёСЃР»Рѕ:";
 			// 
-			// textBox11 - Вторая десятичная дробь 
+			// textBox11 - Р’С‚РѕСЂР°СЏ РґРµСЃСЏС‚РёС‡РЅР°СЏ РґСЂРѕР±СЊ 
 			// 
 			this->textBox11->Location = System::Drawing::Point(296, 185);
 			this->textBox11->Name = L"textBox11";
 			this->textBox11->Size = System::Drawing::Size(193, 22);
 			this->textBox11->TabIndex = 21;
 			// 
-			// textBox12 - результат вычисления десятичных дробей
+			// textBox12 - СЂРµР·СѓР»СЊС‚Р°С‚ РІС‹С‡РёСЃР»РµРЅРёСЏ РґРµСЃСЏС‚РёС‡РЅС‹С… РґСЂРѕР±РµР№
 			// 
 			this->textBox12->BackColor = System::Drawing::SystemColors::Window;
 			this->textBox12->Cursor = System::Windows::Forms::Cursors::No;
@@ -318,7 +318,7 @@ namespace calculator {
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(103, 17);
 			this->label7->TabIndex = 23;
-			this->label7->Text = L"Второе число:";
+			this->label7->Text = L"Р’С‚РѕСЂРѕРµ С‡РёСЃР»Рѕ:";
 			// 
 			// label8
 			// 
@@ -328,46 +328,46 @@ namespace calculator {
 			this->label8->Name = L"label8";
 			this->label8->Size = System::Drawing::Size(80, 17);
 			this->label8->TabIndex = 24;
-			this->label8->Text = L"Результат:";
+			this->label8->Text = L"Р РµР·СѓР»СЊС‚Р°С‚:";
 			// 
-			// button3 - Очищение всех полей
+			// button3 - РћС‡РёС‰РµРЅРёРµ РІСЃРµС… РїРѕР»РµР№
 			// 
 			this->button3->Location = System::Drawing::Point(495, 10);
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(120, 35);
 			this->button3->TabIndex = 25;
-			this->button3->Text = L"Очистить все";
+			this->button3->Text = L"РћС‡РёСЃС‚РёС‚СЊ РІСЃРµ";
 			this->button3->UseVisualStyleBackColor = true;
 			this->button3->Click += gcnew System::EventHandler(this, &MyForm::button3_Click);
 			// 
-			// comboBox1 - Выбор действия для работы с обыкновенными дробями
+			// comboBox1 - Р’С‹Р±РѕСЂ РґРµР№СЃС‚РІРёСЏ РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ РѕР±С‹РєРЅРѕРІРµРЅРЅС‹РјРё РґСЂРѕР±СЏРјРё
 			// 
-			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(4) { L"Сложение", L"Вычитание", L"Умножение", L"Деление" });
+			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(4) { L"РЎР»РѕР¶РµРЅРёРµ", L"Р’С‹С‡РёС‚Р°РЅРёРµ", L"РЈРјРЅРѕР¶РµРЅРёРµ", L"Р”РµР»РµРЅРёРµ" });
 			this->comboBox1->Location = System::Drawing::Point(4, 57);
 			this->comboBox1->Name = L"comboBox1";
 			this->comboBox1->Size = System::Drawing::Size(121, 24);
 			this->comboBox1->TabIndex = 39;
-			this->comboBox1->Text = L"Действие";
+			this->comboBox1->Text = L"Р”РµР№СЃС‚РІРёРµ";
 			// 
-			// button4 - Перевод из обыкновенной дроби в десятичную
+			// button4 - РџРµСЂРµРІРѕРґ РёР· РѕР±С‹РєРЅРѕРІРµРЅРЅРѕР№ РґСЂРѕР±Рё РІ РґРµСЃСЏС‚РёС‡РЅСѓСЋ
 			// 
 			this->button4->BackColor = System::Drawing::Color::Gray;
 			this->button4->Location = System::Drawing::Point(287, 327);
 			this->button4->Name = L"button4";
 			this->button4->Size = System::Drawing::Size(113, 33);
 			this->button4->TabIndex = 34;
-			this->button4->Text = L"В десятичную";
+			this->button4->Text = L"Р’ РґРµСЃСЏС‚РёС‡РЅСѓСЋ";
 			this->button4->UseVisualStyleBackColor = false;
 			this->button4->Click += gcnew System::EventHandler(this, &MyForm::button4_Click);
 			// 
-			// button5 - Перевод из десятичной дроби в обыкновенную
+			// button5 - РџРµСЂРµРІРѕРґ РёР· РґРµСЃСЏС‚РёС‡РЅРѕР№ РґСЂРѕР±Рё РІ РѕР±С‹РєРЅРѕРІРµРЅРЅСѓСЋ
 			// 
 			this->button5->BackColor = System::Drawing::Color::Gray;
 			this->button5->Location = System::Drawing::Point(442, 327);
 			this->button5->Name = L"button5";
 			this->button5->Size = System::Drawing::Size(133, 33);
 			this->button5->TabIndex = 35;
-			this->button5->Text = L"В обыкновенную";
+			this->button5->Text = L"Р’ РѕР±С‹РєРЅРѕРІРµРЅРЅСѓСЋ";
 			this->button5->UseVisualStyleBackColor = false;
 			this->button5->Click += gcnew System::EventHandler(this, &MyForm::button5_Click);
 			// 
@@ -378,7 +378,7 @@ namespace calculator {
 			this->label11->Name = L"label11";
 			this->label11->Size = System::Drawing::Size(163, 23);
 			this->label11->TabIndex = 38;
-			this->label11->Text = L"Перевод результата";
+			this->label11->Text = L"РџРµСЂРµРІРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚Р°";
 			// 
 			// MyForm
 			// 
@@ -431,10 +431,10 @@ namespace calculator {
 	private: System::Void label1_Click(System::Object^ sender, System::EventArgs^ e) {
 		
 }
-private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) { //Работа с обыкновенными дробями
+private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) { //Р Р°Р±РѕС‚Р° СЃ РѕР±С‹РєРЅРѕРІРµРЅРЅС‹РјРё РґСЂРѕР±СЏРјРё
 	bool f = true;
 	for (int i = 0; i < textBox9->Text->Length; i++) { 
-		if ((textBox9->Text[i] >= '0') && (textBox9->Text[i] <= '9')) {} // Проверка являются ли все символы в textBox'е цифрами
+		if ((textBox9->Text[i] >= '0') && (textBox9->Text[i] <= '9')) {} // РџСЂРѕРІРµСЂРєР° СЏРІР»СЏСЋС‚СЃСЏ Р»Рё РІСЃРµ СЃРёРјРІРѕР»С‹ РІ textBox'Рµ С†РёС„СЂР°РјРё
 		else { f = false; } 
 	}
 	for (int i = 0; i < textBox2->Text->Length; i++) {
@@ -459,108 +459,108 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 	}
 	if (!f) 
 	{
-		MessageBox::Show("Неверный ввод", "Ошибка"); // Если хотя бы в одном textBox'е символ не является цифрой
+		MessageBox::Show("РќРµРІРµСЂРЅС‹Р№ РІРІРѕРґ", "РћС€РёР±РєР°"); // Р•СЃР»Рё С…РѕС‚СЏ Р±С‹ РІ РѕРґРЅРѕРј textBox'Рµ СЃРёРјРІРѕР» РЅРµ СЏРІР»СЏРµС‚СЃСЏ С†РёС„СЂРѕР№
 	}
 	else {
-		if ((comboBox1->SelectedItem != "Сложение") && (comboBox1->SelectedItem != "Вычитание") && (comboBox1->SelectedItem != "Умножение") && (comboBox1->SelectedItem != "Деление")) // Проверка на выбраность действия в comboBox'е
+		if ((comboBox1->SelectedItem != "РЎР»РѕР¶РµРЅРёРµ") && (comboBox1->SelectedItem != "Р’С‹С‡РёС‚Р°РЅРёРµ") && (comboBox1->SelectedItem != "РЈРјРЅРѕР¶РµРЅРёРµ") && (comboBox1->SelectedItem != "Р”РµР»РµРЅРёРµ")) // РџСЂРѕРІРµСЂРєР° РЅР° РІС‹Р±СЂР°РЅРѕСЃС‚СЊ РґРµР№СЃС‚РІРёСЏ РІ comboBox'Рµ
 		{
-			MessageBox::Show("Действие не выбрано", "Ошибка"); // Если ничего не выбрать, то вылазит ошибка о том, что действие не выбрано
+			MessageBox::Show("Р”РµР№СЃС‚РІРёРµ РЅРµ РІС‹Р±СЂР°РЅРѕ", "РћС€РёР±РєР°"); // Р•СЃР»Рё РЅРёС‡РµРіРѕ РЅРµ РІС‹Р±СЂР°С‚СЊ, С‚Рѕ РІС‹Р»Р°Р·РёС‚ РѕС€РёР±РєР° Рѕ С‚РѕРј, С‡С‚Рѕ РґРµР№СЃС‚РІРёРµ РЅРµ РІС‹Р±СЂР°РЅРѕ
 		}
 		else {
-			long int c1, ch1, z1, c2, ch2, z2, c3, z3, ch3; // с - целая часть, ch- числитель, z - знаменатель, цифры - номер дроби
-			c1 = System::Convert::ToInt32(textBox9->Text); // Конвертирование текста в числа
+			long int c1, ch1, z1, c2, ch2, z2, c3, z3, ch3; // СЃ - С†РµР»Р°СЏ С‡Р°СЃС‚СЊ, ch- С‡РёСЃР»РёС‚РµР»СЊ, z - Р·РЅР°РјРµРЅР°С‚РµР»СЊ, С†РёС„СЂС‹ - РЅРѕРјРµСЂ РґСЂРѕР±Рё
+			c1 = System::Convert::ToInt32(textBox9->Text); // РљРѕРЅРІРµСЂС‚РёСЂРѕРІР°РЅРёРµ С‚РµРєСЃС‚Р° РІ С‡РёСЃР»Р°
 			ch1 = System::Convert::ToInt32(textBox2->Text); 
 			z1 = System::Convert::ToInt32(textBox4->Text); 
 			c2 = System::Convert::ToInt32(textBox8->Text); 
 			ch2 = System::Convert::ToInt32(textBox3->Text); 
 			z2 = System::Convert::ToInt32(textBox7->Text); 
-			ch1 = c1 * z1 + ch1; // Перевод целой части в числитель
+			ch1 = c1 * z1 + ch1; // РџРµСЂРµРІРѕРґ С†РµР»РѕР№ С‡Р°СЃС‚Рё РІ С‡РёСЃР»РёС‚РµР»СЊ
 			ch2 = c2 * z2 + ch2;
-			if ((z1 == 0) || (z2 == 0)) // Проверка знаменателя на 0
+			if ((z1 == 0) || (z2 == 0)) // РџСЂРѕРІРµСЂРєР° Р·РЅР°РјРµРЅР°С‚РµР»СЏ РЅР° 0
 			{
-				MessageBox::Show("Знаменатель не должен равняться 0", "Ошибка");
+				MessageBox::Show("Р—РЅР°РјРµРЅР°С‚РµР»СЊ РЅРµ РґРѕР»Р¶РµРЅ СЂР°РІРЅСЏС‚СЊСЃСЏ 0", "РћС€РёР±РєР°");
 			}
 			else {
-				if (comboBox1->SelectedItem == "Умножение") // Умножение дробей
+				if (comboBox1->SelectedItem == "РЈРјРЅРѕР¶РµРЅРёРµ") // РЈРјРЅРѕР¶РµРЅРёРµ РґСЂРѕР±РµР№
 				{
 					z3 = z1 * z2; 
 					ch3 = ch1 * ch2;
 				}
-				else if (comboBox1->SelectedItem == "Деление") // Деление дробей
+				else if (comboBox1->SelectedItem == "Р”РµР»РµРЅРёРµ") // Р”РµР»РµРЅРёРµ РґСЂРѕР±РµР№
 				{
-					if (ch2 == 0) // Проверка числителя второй дроби на 0
+					if (ch2 == 0) // РџСЂРѕРІРµСЂРєР° С‡РёСЃР»РёС‚РµР»СЏ РІС‚РѕСЂРѕР№ РґСЂРѕР±Рё РЅР° 0
 					{
-						MessageBox::Show("Деление на 0", "Ошибка");
+						MessageBox::Show("Р”РµР»РµРЅРёРµ РЅР° 0", "РћС€РёР±РєР°");
 					}
 					else {
 						z3 = z1 * ch2;
 						ch3 = z2 * ch1;
 					}
 				}
-				else if (comboBox1->SelectedItem == "Сложение") // Сложение дробей
+				else if (comboBox1->SelectedItem == "РЎР»РѕР¶РµРЅРёРµ") // РЎР»РѕР¶РµРЅРёРµ РґСЂРѕР±РµР№
 				{
-					ch1 = ch1 * z2; // Домножение дроби до одинакого знаменателя
+					ch1 = ch1 * z2; // Р”РѕРјРЅРѕР¶РµРЅРёРµ РґСЂРѕР±Рё РґРѕ РѕРґРёРЅР°РєРѕРіРѕ Р·РЅР°РјРµРЅР°С‚РµР»СЏ
 					ch2 = ch2 * z1; 
 					z3 = z1 * z2;
 					ch3 = ch1 + ch2;
 				}
-				else if (comboBox1->SelectedItem == "Вычитание") // Вычитание дробей
+				else if (comboBox1->SelectedItem == "Р’С‹С‡РёС‚Р°РЅРёРµ") // Р’С‹С‡РёС‚Р°РЅРёРµ РґСЂРѕР±РµР№
 				{
-					ch1 = ch1 * z2; // Домножение дроби до одинакого знаменателя
+					ch1 = ch1 * z2; // Р”РѕРјРЅРѕР¶РµРЅРёРµ РґСЂРѕР±Рё РґРѕ РѕРґРёРЅР°РєРѕРіРѕ Р·РЅР°РјРµРЅР°С‚РµР»СЏ
 					ch2 = ch2 * z1;
 					z3 = z1 * z2;
 					ch3 = ch1 - ch2;
 				}
-				c3 = ch3 / z3; // Выделение целой части результата вычисления дробей
-				ch3 = ch3 % z3; // Числитель результата вычисления дробей
-				while ((ch3 % 2 == 0) && (z3 % 2 == 0)) // Сокращение результата на 2
+				c3 = ch3 / z3; // Р’С‹РґРµР»РµРЅРёРµ С†РµР»РѕР№ С‡Р°СЃС‚Рё СЂРµР·СѓР»СЊС‚Р°С‚Р° РІС‹С‡РёСЃР»РµРЅРёСЏ РґСЂРѕР±РµР№
+				ch3 = ch3 % z3; // Р§РёСЃР»РёС‚РµР»СЊ СЂРµР·СѓР»СЊС‚Р°С‚Р° РІС‹С‡РёСЃР»РµРЅРёСЏ РґСЂРѕР±РµР№
+				while ((ch3 % 2 == 0) && (z3 % 2 == 0)) // РЎРѕРєСЂР°С‰РµРЅРёРµ СЂРµР·СѓР»СЊС‚Р°С‚Р° РЅР° 2
 				{
 					ch3 = ch3 / 2;
 					z3 = z3 / 2;
 				}
-				while ((ch3 % 3 == 0) && (z3 % 3 == 0)) // Сокращение результата на 3
+				while ((ch3 % 3 == 0) && (z3 % 3 == 0)) // РЎРѕРєСЂР°С‰РµРЅРёРµ СЂРµР·СѓР»СЊС‚Р°С‚Р° РЅР° 3
 				{
 					ch3 = ch3 / 3;
 					z3 = z3 / 3;
 				}
-				while ((ch3 % 5 == 0) && (z3 % 5 == 0)) // Сокращение результата на 5
+				while ((ch3 % 5 == 0) && (z3 % 5 == 0)) // РЎРѕРєСЂР°С‰РµРЅРёРµ СЂРµР·СѓР»СЊС‚Р°С‚Р° РЅР° 5
 				{
 					ch3 = ch3 / 5;
 					z3 = z3 / 5;
 				}
-				while ((ch3 % 7 == 0) && (z3 % 7 == 0)) // Сокращение результата на 7
+				while ((ch3 % 7 == 0) && (z3 % 7 == 0)) // РЎРѕРєСЂР°С‰РµРЅРёРµ СЂРµР·СѓР»СЊС‚Р°С‚Р° РЅР° 7
 				{
 					ch3 = ch3 / 7;
 					z3 = z3 / 7;
 				}
-				while ((ch3 % 11 == 0) && (z3 % 11 == 0)) // Сокращение результата на 11
+				while ((ch3 % 11 == 0) && (z3 % 11 == 0)) // РЎРѕРєСЂР°С‰РµРЅРёРµ СЂРµР·СѓР»СЊС‚Р°С‚Р° РЅР° 11
 				{
 					ch3 = ch3 / 11;
 					z3 = z3 / 11;
 				}
-				while ((ch3 % 13 == 0) && (z3 % 13 == 0)) // Сокращение результата на 13
+				while ((ch3 % 13 == 0) && (z3 % 13 == 0)) // РЎРѕРєСЂР°С‰РµРЅРёРµ СЂРµР·СѓР»СЊС‚Р°С‚Р° РЅР° 13
 				{
 					ch3 = ch3 / 13;
 					z3 = z3 / 13;
 				}
-				while ((ch3 % 17 == 0) && (z3 % 17 == 0)) // Сокращение результата на 17
+				while ((ch3 % 17 == 0) && (z3 % 17 == 0)) // РЎРѕРєСЂР°С‰РµРЅРёРµ СЂРµР·СѓР»СЊС‚Р°С‚Р° РЅР° 17
 				{
 					ch3 = ch3 / 17;
 					z3 = z3 / 17;
 				}
-				textBox1->Text = System::Convert::ToString(c3); // Конвертирование из чисел в текст и вывод результата
+				textBox1->Text = System::Convert::ToString(c3); // РљРѕРЅРІРµСЂС‚РёСЂРѕРІР°РЅРёРµ РёР· С‡РёСЃРµР» РІ С‚РµРєСЃС‚ Рё РІС‹РІРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚Р°
 				textBox6->Text = System::Convert::ToString(ch3);
 				textBox5->Text = System::Convert::ToString(z3);
 			}
 		}
 	}
 }
-private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) { // работа с десятичными дробями
+private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) { // СЂР°Р±РѕС‚Р° СЃ РґРµСЃСЏС‚РёС‡РЅС‹РјРё РґСЂРѕР±СЏРјРё
 	bool f = true;
 	for (int i = 0; i < textBox10->Text->Length; i++) {
-		if ((textBox10->Text[i] >= '0') && (textBox10->Text[i] <= '9')||(textBox10->Text[i] == ',')) // Проверка являются ли все символы цифрами или запятой
+		if ((textBox10->Text[i] >= '0') && (textBox10->Text[i] <= '9')||(textBox10->Text[i] == ',')) // РџСЂРѕРІРµСЂРєР° СЏРІР»СЏСЋС‚СЃСЏ Р»Рё РІСЃРµ СЃРёРјРІРѕР»С‹ С†РёС„СЂР°РјРё РёР»Рё Р·Р°РїСЏС‚РѕР№
 		{ 
-			if (textBox10->Text[i] == ',') // Проверка на повтор запятой в дроби
+			if (textBox10->Text[i] == ',') // РџСЂРѕРІРµСЂРєР° РЅР° РїРѕРІС‚РѕСЂ Р·Р°РїСЏС‚РѕР№ РІ РґСЂРѕР±Рё
 			{
 				for (int j = i + 1; j < textBox10->Text->Length; j++)
 				{
@@ -590,45 +590,45 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 	}
 	if (!f)
 	{
-		MessageBox::Show("Неверный ввод", "Ошибка"); // Если хотя бы в одном textBox'е символ не является цифрой
+		MessageBox::Show("РќРµРІРµСЂРЅС‹Р№ РІРІРѕРґ", "РћС€РёР±РєР°"); // Р•СЃР»Рё С…РѕС‚СЏ Р±С‹ РІ РѕРґРЅРѕРј textBox'Рµ СЃРёРјРІРѕР» РЅРµ СЏРІР»СЏРµС‚СЃСЏ С†РёС„СЂРѕР№
 
 	}
 	else {
-		if ((comboBox2->SelectedItem != "Сложение") && (comboBox2->SelectedItem != "Вычитание") && (comboBox2->SelectedItem != "Умножение") && (comboBox2->SelectedItem != "Деление")) // Проверка на выбраность действия в comboBox'е
+		if ((comboBox2->SelectedItem != "РЎР»РѕР¶РµРЅРёРµ") && (comboBox2->SelectedItem != "Р’С‹С‡РёС‚Р°РЅРёРµ") && (comboBox2->SelectedItem != "РЈРјРЅРѕР¶РµРЅРёРµ") && (comboBox2->SelectedItem != "Р”РµР»РµРЅРёРµ")) // РџСЂРѕРІРµСЂРєР° РЅР° РІС‹Р±СЂР°РЅРѕСЃС‚СЊ РґРµР№СЃС‚РІРёСЏ РІ comboBox'Рµ
 		{
-			MessageBox::Show("Действие не выбрано", "Ошибка");
+			MessageBox::Show("Р”РµР№СЃС‚РІРёРµ РЅРµ РІС‹Р±СЂР°РЅРѕ", "РћС€РёР±РєР°");
 		}
 		else {
-			double d1,d2,d3; // d -дробь, цифры - номер дроби
-			d1 = System::Convert::ToDouble(textBox10->Text); // Конвертирование из текста в числа
+			double d1,d2,d3; // d -РґСЂРѕР±СЊ, С†РёС„СЂС‹ - РЅРѕРјРµСЂ РґСЂРѕР±Рё
+			d1 = System::Convert::ToDouble(textBox10->Text); // РљРѕРЅРІРµСЂС‚РёСЂРѕРІР°РЅРёРµ РёР· С‚РµРєСЃС‚Р° РІ С‡РёСЃР»Р°
 			d2 = System::Convert::ToDouble(textBox11->Text);
-			if (comboBox2->SelectedItem == "Умножение") // Умножение дробей
+			if (comboBox2->SelectedItem == "РЈРјРЅРѕР¶РµРЅРёРµ") // РЈРјРЅРѕР¶РµРЅРёРµ РґСЂРѕР±РµР№
 			{
 				d3 = d1 * d2;
 			}
-			else if (comboBox2->SelectedItem == "Деление") // Деление дробей
+			else if (comboBox2->SelectedItem == "Р”РµР»РµРЅРёРµ") // Р”РµР»РµРЅРёРµ РґСЂРѕР±РµР№
 			{
-				if (d2 == 0) // Проверка делимости на 0
+				if (d2 == 0) // РџСЂРѕРІРµСЂРєР° РґРµР»РёРјРѕСЃС‚Рё РЅР° 0
 				{
-					MessageBox::Show("Деление на 0", "Ошибка");
+					MessageBox::Show("Р”РµР»РµРЅРёРµ РЅР° 0", "РћС€РёР±РєР°");
 				}
 				else {
 					d3 = d1 / d2;
 				}
 			}
-			else if (comboBox2->SelectedItem == "Сложение") // Сложение дробей
+			else if (comboBox2->SelectedItem == "РЎР»РѕР¶РµРЅРёРµ") // РЎР»РѕР¶РµРЅРёРµ РґСЂРѕР±РµР№
 			{
 				d3 = d1 + d2;
 			}
-			else if (comboBox2->SelectedItem == "Вычитание") // Вычитание дробей
+			else if (comboBox2->SelectedItem == "Р’С‹С‡РёС‚Р°РЅРёРµ") // Р’С‹С‡РёС‚Р°РЅРёРµ РґСЂРѕР±РµР№
 			{
 				d3 = d1 - d2;
 			}
-			textBox12->Text = System::Convert::ToString(d3); // Конвертирование чисел в текст и вывод
+			textBox12->Text = System::Convert::ToString(d3); // РљРѕРЅРІРµСЂС‚РёСЂРѕРІР°РЅРёРµ С‡РёСЃРµР» РІ С‚РµРєСЃС‚ Рё РІС‹РІРѕРґ
 		}
 	}
 }
-private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {// Кнопка очистить все, очищает каждый textBox
+private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {// РљРЅРѕРїРєР° РѕС‡РёСЃС‚РёС‚СЊ РІСЃРµ, РѕС‡РёС‰Р°РµС‚ РєР°Р¶РґС‹Р№ textBox
 	textBox1->Text = L"";
 	textBox2->Text = L"";
 	textBox3->Text = L"";
@@ -641,32 +641,32 @@ private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e
 	textBox10->Text = L"";
 	textBox11->Text = L"";
 	textBox12->Text = L"";
-	comboBox1->Text = L"Действие";
-	comboBox2->Text = L"Действие";
+	comboBox1->Text = L"Р”РµР№СЃС‚РІРёРµ";
+	comboBox2->Text = L"Р”РµР№СЃС‚РІРёРµ";
 }
-private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) { // Перевод из обыкновенной дроби в десятичную
+private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) { // РџРµСЂРµРІРѕРґ РёР· РѕР±С‹РєРЅРѕРІРµРЅРЅРѕР№ РґСЂРѕР±Рё РІ РґРµСЃСЏС‚РёС‡РЅСѓСЋ
 	
-		double c3, ch3, z3,d3; // c- целая часть, ch - числитель, z - знаменатель, d - десятичная дробь
-		c3 = System::Convert::ToDouble(textBox1->Text); // Конвертирование текста в числа
+		double c3, ch3, z3,d3; // c- С†РµР»Р°СЏ С‡Р°СЃС‚СЊ, ch - С‡РёСЃР»РёС‚РµР»СЊ, z - Р·РЅР°РјРµРЅР°С‚РµР»СЊ, d - РґРµСЃСЏС‚РёС‡РЅР°СЏ РґСЂРѕР±СЊ
+		c3 = System::Convert::ToDouble(textBox1->Text); // РљРѕРЅРІРµСЂС‚РёСЂРѕРІР°РЅРёРµ С‚РµРєСЃС‚Р° РІ С‡РёСЃР»Р°
 		ch3 = System::Convert::ToDouble(textBox6->Text);
 		z3 = System::Convert::ToDouble(textBox5->Text);
 		if (z3 == 0)
 		{
-			MessageBox::Show("Знаменатель не должен равняться 0", "Ошибка");
+			MessageBox::Show("Р—РЅР°РјРµРЅР°С‚РµР»СЊ РЅРµ РґРѕР»Р¶РµРЅ СЂР°РІРЅСЏС‚СЊСЃСЏ 0", "РћС€РёР±РєР°");
 		}
 		else {
-			ch3 = c3 * z3 + ch3; // Перевод целой части в числитель 
-			d3 = ch3*1.0 / z3*1.0; // Нецелочисленное деление
-			textBox12->Text = System::Convert::ToString(d3); // Конвертирование чисел в текст
+			ch3 = c3 * z3 + ch3; // РџРµСЂРµРІРѕРґ С†РµР»РѕР№ С‡Р°СЃС‚Рё РІ С‡РёСЃР»РёС‚РµР»СЊ 
+			d3 = ch3*1.0 / z3*1.0; // РќРµС†РµР»РѕС‡РёСЃР»РµРЅРЅРѕРµ РґРµР»РµРЅРёРµ
+			textBox12->Text = System::Convert::ToString(d3); // РљРѕРЅРІРµСЂС‚РёСЂРѕРІР°РЅРёРµ С‡РёСЃРµР» РІ С‚РµРєСЃС‚
 	}
 }
-private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {// Перевод из десятичной дроби в обыкновенную
-	double d3; // Десятичная дробь
-		long int c3, ch3, z3,d3h = 0; // с - целая часть, ch - числитель, z -знаменатель, d3h - вспомогательная переменная
-		d3 = System::Convert::ToDouble(textBox12->Text); // Конвертирование текста в числа
-		c3 = (int)d3; // выделение целой части
+private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {// РџРµСЂРµРІРѕРґ РёР· РґРµСЃСЏС‚РёС‡РЅРѕР№ РґСЂРѕР±Рё РІ РѕР±С‹РєРЅРѕРІРµРЅРЅСѓСЋ
+	double d3; // Р”РµСЃСЏС‚РёС‡РЅР°СЏ РґСЂРѕР±СЊ
+		long int c3, ch3, z3,d3h = 0; // СЃ - С†РµР»Р°СЏ С‡Р°СЃС‚СЊ, ch - С‡РёСЃР»РёС‚РµР»СЊ, z -Р·РЅР°РјРµРЅР°С‚РµР»СЊ, d3h - РІСЃРїРѕРјРѕРіР°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ
+		d3 = System::Convert::ToDouble(textBox12->Text); // РљРѕРЅРІРµСЂС‚РёСЂРѕРІР°РЅРёРµ С‚РµРєСЃС‚Р° РІ С‡РёСЃР»Р°
+		c3 = (int)d3; // РІС‹РґРµР»РµРЅРёРµ С†РµР»РѕР№ С‡Р°СЃС‚Рё
 		for (int i = 0; i < textBox12->Text->Length; i++) {
-			if (textBox12->Text[i] == ',') { d3h = 0; } // Подсчет количества знаков после запятой
+			if (textBox12->Text[i] == ',') { d3h = 0; } // РџРѕРґСЃС‡РµС‚ РєРѕР»РёС‡РµСЃС‚РІР° Р·РЅР°РєРѕРІ РїРѕСЃР»Рµ Р·Р°РїСЏС‚РѕР№
 			else{ d3h++; }
 		}
 		if ((d3 - c3) == 0) {
@@ -674,45 +674,45 @@ private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e
 			ch3 = 0;
 		}
 		else{
-			z3 = pow(10, d3h); // Вычисление знаменателя обыкновенной дроби
-			ch3 = (d3 - c3) * z3; // Вычисление числителя обыкновенной дроби
+			z3 = pow(10, d3h); // Р’С‹С‡РёСЃР»РµРЅРёРµ Р·РЅР°РјРµРЅР°С‚РµР»СЏ РѕР±С‹РєРЅРѕРІРµРЅРЅРѕР№ РґСЂРѕР±Рё
+			ch3 = (d3 - c3) * z3; // Р’С‹С‡РёСЃР»РµРЅРёРµ С‡РёСЃР»РёС‚РµР»СЏ РѕР±С‹РєРЅРѕРІРµРЅРЅРѕР№ РґСЂРѕР±Рё
 		}
-		while ((ch3 % 2 == 0) && (z3 % 2 == 0)) // Сокращение десятичной дроби на 2
+		while ((ch3 % 2 == 0) && (z3 % 2 == 0)) // РЎРѕРєСЂР°С‰РµРЅРёРµ РґРµСЃСЏС‚РёС‡РЅРѕР№ РґСЂРѕР±Рё РЅР° 2
 		{
 			ch3 = ch3 / 2;
 			z3 = z3 / 2;
 		}
-		while ((ch3 % 3 == 0) && (z3 % 3 == 0)) // Сокращение десятичной дроби на 3
+		while ((ch3 % 3 == 0) && (z3 % 3 == 0)) // РЎРѕРєСЂР°С‰РµРЅРёРµ РґРµСЃСЏС‚РёС‡РЅРѕР№ РґСЂРѕР±Рё РЅР° 3
 		{
 			ch3 = ch3 / 3;
 			z3 = z3 / 3;
 		}
-		while ((ch3 % 5 == 0) && (z3 % 5 == 0)) // Сокращение десятичной дроби на 5
+		while ((ch3 % 5 == 0) && (z3 % 5 == 0)) // РЎРѕРєСЂР°С‰РµРЅРёРµ РґРµСЃСЏС‚РёС‡РЅРѕР№ РґСЂРѕР±Рё РЅР° 5
 		{
 			ch3 = ch3 / 5;
 			z3 = z3 / 5;
 		}
-		while ((ch3 % 7 == 0) && (z3 % 7 == 0)) // Сокращение десятичной дроби на 7
+		while ((ch3 % 7 == 0) && (z3 % 7 == 0)) // РЎРѕРєСЂР°С‰РµРЅРёРµ РґРµСЃСЏС‚РёС‡РЅРѕР№ РґСЂРѕР±Рё РЅР° 7
 		{
 			ch3 = ch3 / 7;
 			z3 = z3 / 7;
 		}
-		while ((ch3 % 11 == 0) && (z3 % 11 == 0)) // Сокращение десятичной дроби на 11
+		while ((ch3 % 11 == 0) && (z3 % 11 == 0)) // РЎРѕРєСЂР°С‰РµРЅРёРµ РґРµСЃСЏС‚РёС‡РЅРѕР№ РґСЂРѕР±Рё РЅР° 11
 		{
 			ch3 = ch3 / 11;
 			z3 = z3 / 11;
 		}
-		while ((ch3 % 13 == 0) && (z3 % 13 == 0)) // Сокращение десятичной дроби на 13
+		while ((ch3 % 13 == 0) && (z3 % 13 == 0)) // РЎРѕРєСЂР°С‰РµРЅРёРµ РґРµСЃСЏС‚РёС‡РЅРѕР№ РґСЂРѕР±Рё РЅР° 13
 		{
 			ch3 = ch3 / 13;
 			z3 = z3 / 13;
 		}
-		while ((ch3 % 17 == 0) && (z3 % 17 == 0)) // Сокращение десятичной дроби на 17
+		while ((ch3 % 17 == 0) && (z3 % 17 == 0)) // РЎРѕРєСЂР°С‰РµРЅРёРµ РґРµСЃСЏС‚РёС‡РЅРѕР№ РґСЂРѕР±Рё РЅР° 17
 		{
 			ch3 = ch3 / 17;
 			z3 = z3 / 17;
 		}
-		textBox1->Text = System::Convert::ToString(c3); // Конвертирование чисел в текст
+		textBox1->Text = System::Convert::ToString(c3); // РљРѕРЅРІРµСЂС‚РёСЂРѕРІР°РЅРёРµ С‡РёСЃРµР» РІ С‚РµРєСЃС‚
 		textBox5->Text = System::Convert::ToString(z3);
 		textBox6->Text = System::Convert::ToString(ch3);
 }
